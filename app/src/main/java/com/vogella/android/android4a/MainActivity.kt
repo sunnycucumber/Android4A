@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         main_button.setOnClickListener{
-            mainViewModel.OnClickedIncrement()
+            mainViewModel.onClickedIncrement("")
         }
         mainViewModel.counter.observe(this,  Observer {
             value -> main_text.text = value.toString()
