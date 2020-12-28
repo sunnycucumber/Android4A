@@ -29,6 +29,7 @@ val dataModule :Module = module {
     fun createDataBase(context: Context): DatabaseDao {
         val appDatabase = Room.databaseBuilder(
             context,
-            AppDatabase::class.java, "database-name").build()
+            AppDatabase::class.java, "database-name"
+        ).build()
       return  appDatabase.databaseDao()
 }

@@ -6,33 +6,34 @@ import androidx.lifecycle.viewModelScope
 import com.vogella.android.android4a.domain.entity.User
 import com.vogella.android.android4a.domain.usecase.CreateUserUseCase
 import com.vogella.android.android4a.domain.usecase.GetUserUseCase
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import com.vogella.android.android4a.presentation.main.LoginError
+import com.vogella.android.android4a.presentation.main.LoginSuccess
+import kotlinx.coroutines.*
+import com.vogella.android.android4a.presentation.main.LoginStatus
 
 class MainViewModel(
 
    private val createUserUseCase: CreateUserUseCase,
    private val getUserUseCase: GetUserUseCase
-): ViewModel(){
+): ViewModel() {
 
-    val counter: MutableLiveData<Int> = MutableLiveData()
-    init {
+    val loginLiveData: MutableLiveData<LoginStatus> = MutableLiveData()
 
-        counter.value = 0
-    }
-    fun onClickedIncrement(emailUser: String) {
-            viewModelScope.launch(Dispatchers.IO){
-                createUserUseCase.invoke(User("test"))
+    fun onClickedLogin(emailUser: String, password: String) {
+        viewModelScope.launch(Dispatchers.IO) {
 
-                val user: User = getUserUseCase.invoke("test")
-                val debug = "debug"
+            val user = getUserUseCase.invoke(emailUser)
+            val loginStatus = if (user != null) {
+                LoginSuccess(user.email)
+            } else {
+                LoginError
             }
-
+                    withContext(Dispatchers.Main){
+                    loginLiveData.value = loginStatus
+        }
     }
-
-
-
-
 }
+}
+
+
+
