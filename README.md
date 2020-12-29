@@ -9,19 +9,19 @@ elle renvoie ensuite l'affichage d'une liste.
 * Page de login
 <image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/ReelPageLogin.PNG" width="200" height="350">
 * PopUp avec informations
-<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/PopUpErreur.PNG" "200" height="350">
+<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/PopUpErreur.PNG" width="200" height="350">
 * L'écran affiche une liste d'élèments
-<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Listeitem.PNG, width" "200" height="350">
+<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Listeitem.PNG width" "200" height="350">
 * L'écran contient le détail d'un élèment
-<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/détail.PNG, width">
+<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/détail.PNG, width="200" height="350">
 
 ## Eléments technique contenu dans l'application:
 * Affichage d'une deuxième fenêtre
-<img src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Listitem.PNG">
+<img src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Listeitem.PNG" width="200" height="350">
 * Ajout de Koin
 * Architecture MVVM
 * Le clean architecture
-<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/CleanArch.PNG">
+<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/CleanArch.PNG" width" "200" height="350" >
 * Mise en place d'une base de donnée avec ROOM
 * Les tests unitaire
 
