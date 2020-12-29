@@ -13,16 +13,17 @@ elle renvoie ensuite l'affichage d'une liste.
 * L'écran affiche une liste d'élèments
 <image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Listeitem.PNG, width">
 * L'écran contient le détail d'un élèment
+<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/détail.PNG, width">
 
 ## Eléments technique contenu dans l'application:
 * Affichage d'une deuxième fenêtre
-<img src="Android4A/Screenshots/PopUpErreur.PNG" width="540" height="960" alt="PopUpErreur.PNG">
+<img src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Listitem.PNG">
 * Ajout de Koin
 * Architecture MVVM
 * Le clean architecture
-<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Cleanarchitecture.PNG">
+<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/CleanArch.PNG">
 * Mise en place d'une base de donnée avec ROOM
-  
 * Les tests unitaire
+
 
 
