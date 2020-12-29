@@ -7,7 +7,7 @@ elle renvoie ensuite l'affichage d'une liste.
 
 ## Eléments contenu dans l'application:
 * Page de login
-<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/ReelPageLogin.PNG">
+<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/ReelPageLogin.PNG" width="200" height="400">
 * PopUp avec informations
 <image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/PopUpErreur.PNG">
 * L'écran affiche une liste d'élèments
