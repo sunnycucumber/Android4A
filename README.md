@@ -11,7 +11,7 @@ elle renvoie ensuite l'affichage d'une liste.
 * L'écran affiche une liste d'élèments
 * L'écran contient le détail d'un élèment
 
-##Eléments technique contenu dans l'application:
+## Eléments technique contenu dans l'application:
 * Appel server depuis une API Rest
 * Stockage de données en cache
 * Affichage d'une deuxième fenêtre
