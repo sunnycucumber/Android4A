@@ -11,7 +11,7 @@ elle renvoie ensuite l'affichage d'une liste.
 * PopUp avec informations
 <image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/PopUpErreur.PNG" width="150" height="200">
 * L'écran affiche une liste d'élèments
-  `* L'écran contient le détail d'un élèment`
+* L'écran contient le détail d'un élèment`
 <image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Listeitem.PNG" width="150" height="200">
 
 ## Eléments technique contenu dans l'application:
