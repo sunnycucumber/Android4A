@@ -16,9 +16,7 @@ elle renvoie ensuite l'affichage d'une liste.
 
 ## Eléments technique contenu dans l'application:
 * Affichage d'une deuxième fenêtre
-<img src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Listeitem.PNG" width="150" height="200">
 * Le clean architecture
-<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/CleanArch.PNG" width="150" height="200">
 * Mise en place d'une base de donnée avec ROOM
 * Les tests unitaire
 * Ajout de Koin
