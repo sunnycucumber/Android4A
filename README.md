@@ -16,7 +16,7 @@ elle renvoie ensuite l'affichage d'une liste.
 
 ## Eléments technique contenu dans l'application:
 * Affichage d'une deuxième fenêtre
-<img src="Sunnycucumber/Android4A/Screenshots/PopUpErreur.PNG" width="540" height="960" alt="PopUpErreur.PNG">
+<img src="Android4A/Screenshots/PopUpErreur.PNG" width="540" height="960" alt="PopUpErreur.PNG">
 * Ajout de Koin
 * Architecture MVVM
 * Le clean architecture
