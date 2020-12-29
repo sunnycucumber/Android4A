@@ -8,6 +8,7 @@ elle renvoie ensuite l'affichage d'une liste.
 ## Eléments contenu dans l'application:
 * Page de login
 * PopUp avec informations
+<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/PopUpErreur.PNG">
 * L'écran affiche une liste d'élèments
 * L'écran contient le détail d'un élèment
 
@@ -16,10 +17,11 @@ elle renvoie ensuite l'affichage d'une liste.
 * Ajout de Koin
 * Architecture MVVM
 * Le clean architecture
+<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Cleanarchitecture.PNG">
 * Mise en place d'une base de donnée avec ROOM
 * Les tests unitaire
 
 
 ## Voici son affichage
 
-<image src="https://github.com/sunnycucumber/Android4A/blob/master/Screenshots/Cleanarchitecture.PNG">
+
