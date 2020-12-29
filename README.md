@@ -22,3 +22,4 @@ elle renvoie ensuite l'affichage d'une liste.
 
 ## Voici son affichage
 
+<image src="https://github.com/sunnycucumber/Android4A/tree/master/Screenshots/AjoutKoin.PNG"
